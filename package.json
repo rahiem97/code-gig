@@ -1,0 +1,23 @@
+{
+  "name": "digitalnomad",
+  "version": "1.0.0",
+  "description": "This is a web application that hosts jobs for digital nomads and entrepreneurs ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.3",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
